@@ -1,5 +1,5 @@
 import { Link } from "expo-router";
-import { View, Text, Image, Pressable } from "react-native";
+import { Text, Image, Pressable } from "react-native";
 
 const MovieListItem = ({ movie }) => {
   return (
@@ -11,7 +11,7 @@ const MovieListItem = ({ movie }) => {
           }}
           style={{ width: "100%", aspectRatio: 3 / 5, borderRadius: 20 }}
         />
-        {/* <Text>{movie.title}</Text> */}
+        <Text>{movie.title}</Text>
       </Pressable>
     </Link>
   );
